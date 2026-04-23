@@ -6,9 +6,9 @@ project(MichelleStudentCouncil)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Use gcc-13 if available
-set(CMAKE_C_COMPILER /usr/bin/gcc-13)
-set(CMAKE_CXX_COMPILER /usr/bin/g++-13)
+# Use default compiler
+# set(CMAKE_C_COMPILER /usr/bin/gcc-13)
+# set(CMAKE_CXX_COMPILER /usr/bin/g++-13)
 
 # Optimization flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2 -Wall -Wextra -Wpedantic")
